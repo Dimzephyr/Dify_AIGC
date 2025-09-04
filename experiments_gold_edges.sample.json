@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "notes": "示例黄金集。subject/predicate/object 必填；其他字段可选，仅辅助过滤或分组。",
+    "version": "v0.1"
+  },
+  "edges": [
+    { "subject": "断层破碎带", "predicate": "属于", "object": "地质条件", "relation_type": "属性关系" },
+    { "subject": "地下水", "predicate": "属于", "object": "水文因素", "relation_type": "属性关系" },
+    { "subject": "水文因素", "predicate": "导致", "object": "TBM隧道塌方", "relation_type": "因果关系" },
+    { "subject": "TBM隧道塌方", "predicate": "属于", "object": "协同破坏模式", "relation_type": "属性关系" }
+  ]
+}
